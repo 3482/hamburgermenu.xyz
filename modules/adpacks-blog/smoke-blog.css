@@ -1,0 +1,35 @@
+        .custom-class {
+            padding-top: 20px!important;
+            padding-bottom: 20px!important;
+            padding-left: 10px!important;
+            padding-right: 10px!important;
+            width:100%;
+            height:100%;
+            position:absolute;
+            top:0px;
+            left:0px;
+                 overflow:hidden!important
+        }
+        #adpacks {
+            width: 100%!important;
+            padding: 10px!important;
+            border: none!important;
+            color: #fff!important;
+            display:none;
+            overflow:hidden!important
+
+        }
+        .adpacks-text {
+            font-family: Menlo, 'Andale Mono', monospace!important;
+            font-size: 12px;
+            height: 50px;
+            line-height: 50px;
+            display: block;
+            text-decoration: none;
+            padding-left: 0px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .adpacks-poweredby {
+            display: none!important
+        }

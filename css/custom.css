@@ -1,0 +1,95 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none
+}
+body{
+overflow-x:hidden;
+
+}
+
+
+
+#carbonads{
+	
+
+	position:fixed;
+	left:0px;
+	width: 200px;
+	font-family:oswald;
+	   
+	}
+	
+#carbonads .carbon-text{
+    
+  	  
+        display:none;
+     
+
+}
+
+
+@media only screen and (min-width: 650px) {
+    #carbonads .carbon-text{
+	  color:#201e1c;
+        display:block;
+     font-size:3.2vh;
+    margin-top:4px;
+    padding:3px;
+    margin-left:3px;
+
+	}
+	
+	#carbonads{
+			background:#f0f0f0;
+		}
+	
+}
+
+
+#carbonads .carbon-poweredby{
+    margin-left:3px;
+    padding:3px;
+    color:#c0c0c0;
+    font-size:12px;
+
+    
+}
+
+#carbonads .carbon-img{
+    
+
+    display:block;
+    
+}
+	
+
+.burger-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    font-size: 2em;
+    left: 0px;
+    top: 0px;
+    text-align: center
+}
+
+.burger {
+    font-style: normal;
+    color: #c9874d;
+    display: block;
+    position: relative;
+    font-size: 60vh;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    left: 0px;
+    width: 100%;
+}
+.hero {
+    display: none;
+}

@@ -1,0 +1,8 @@
+Thanks to the following services (and all the lovely humans behind them )for making this site possible:
+
+Cloudflare (https://www.cloudflare.com/)
+Github Pages (https://pages.github.com/)
+Hover domains (http://hover.com/)
+Hamburgler (http://johnm.com.au/hamburgler/)
+Carbonads (http://carbonads.com)
+Eager (http://eager.io)
