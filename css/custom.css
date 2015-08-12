@@ -3,69 +3,48 @@ html {
     margin: 0px;
     padding: 0px;
 }
+
 a {
-    text-decoration: none
-}
-body{
-overflow-x:hidden;
-
+    text-decoration: none;
 }
 
-
-
-#carbonads{
-	
-
-	position:fixed;
-	left:0px;
-	width: 200px;
-	font-family:oswald;
-	   
-	}
-	
-#carbonads .carbon-text{
-    
-  	  
-        display:none;
-     
-
+body {
+    overflow-x: hidden;
 }
 
+#carbonads {
+    position: fixed;
+    left: 0px;
+    width: 200px;
+    font-family: oswald;
+}
+
+#carbonads .carbon-text {
+    display: none;
+}
 
 @media only screen and (min-width: 650px) {
-    #carbonads .carbon-text{
-	  color:#201e1c;
-        display:block;
-     font-size:3.2vh;
-    margin-top:4px;
-    padding:3px;
-    margin-left:3px;
-
-	}
-	
-	#carbonads{
-			background:#f0f0f0;
-		}
-	
+    #carbonads .carbon-text {
+        color: #201e1c;
+        display: block;
+        font-size: 3.2vh;
+        margin-top: 4px;
+        padding: 3px;
+        margin-left: 3px;
+    };
 }
 
-
-#carbonads .carbon-poweredby{
-    margin-left:3px;
-    padding:3px;
-    color:#c0c0c0;
-    font-size:12px;
-
-    
+#carbonads .carbon-poweredby {
+    margin-left: 3px;
+    padding: 3px;
+    color: #201e1c;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
-#carbonads .carbon-img{
-    
-
-    display:block;
-    
+#carbonads .carbon-img {
+    display: block;
 }
-	
 
 .burger-container {
     width: 100%;
@@ -75,24 +54,23 @@ overflow-x:hidden;
     font-size: 2em;
     left: 0px;
     top: 0px;
-    text-align: center
+    text-align: center;
 }
 
-.burger-container  a{
-color:#201e1c
+.burger-container  a {
+    color: #201e1c;
 }
 
-.triangle{
-	
-position:absolute;
-top:0px;
-left:0px;
-margin:0px;
-padding:0px;
-width:100%;
-height:100%;
-z-index:-888;
-	}
+.triangle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -888;
+}
 
 .burger {
     font-style: normal;
@@ -106,6 +84,7 @@ z-index:-888;
     left: 0px;
     width: 100%;
 }
+
 .hero {
     display: none;
 }
