@@ -12,8 +12,5 @@
                 return false;
             });
 			
-			
-			twemoji.parse(document.body);
-
 
         });
