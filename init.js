@@ -11,7 +11,9 @@
                 $(".bottom-menu").toggleClass("bottom-animate");
                 return false;
             });
-			
-			twemoji.parse(document.body,{size:72});
+
+            twemoji.parse(document.body, {
+                size: 72
+            });
 
         });
