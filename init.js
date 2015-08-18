@@ -13,6 +13,7 @@
             });
 			
 			
+			twemoji.parse(document.body);
 
 
         });
